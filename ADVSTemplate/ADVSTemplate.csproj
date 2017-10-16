@@ -55,12 +55,15 @@
   <ItemGroup>
     <Reference Include="accoremgd">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2018\accoremgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="acdbmgd">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2018\acdbmgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="acmgd">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2018\acmgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="ASCADLinkMgd">
       <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2018\ADVS\ASCADLinkMgd.dll</HintPath>
