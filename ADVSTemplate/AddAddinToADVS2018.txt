@@ -1,0 +1,8 @@
+﻿(from AdvanceSteel SDK 2018 - https://knowledge.autodesk.com/search-result/caas/downloads/content/advance-steel-2018-software-development-kit.html)
+
+1 - go to C:\Program Files\Autodesk\AutoCAD 2018\ADVS\ASSettings_Advance.xml and add a new 
+	key to the document refer to the Addin
+2 - Add a new key to the registry. Go to:
+	[HKEY_LOCAL_MACHINE\SOFTWARE\Autodesk\AdvanceSteel\<Advance_Steel_ Version_Number> \NETAddins\<Addin_Name>]
+	add "InstallLocation"="<dll_path>\<file_name>"
+3 - 9.	Start Advance Steel and run your command.
