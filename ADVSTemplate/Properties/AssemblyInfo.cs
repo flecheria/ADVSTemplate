@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Addin")]
+[assembly: AssemblyTitle("ADVSTemplate")]
 [assembly: AssemblyDescription("A template to create Autodesk AdvanceSteel Addins")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Maffeis Engineering s.p.a.")]
-[assembly: AssemblyProduct("Addin")]
+[assembly: AssemblyProduct("Autodesk Advance Steel Addin")]
 [assembly: AssemblyCopyright("Copyright © Maffeis Engineering s.p.a. 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -37,7 +37,3 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: NeutralResourcesLanguage("en")]
-
-// AdvanceSteel specification
-[assembly: ExtensionApplicationAttribute(typeof(ADVSTemplate.Addin))]
-[assembly: CommandClassAttribute(typeof(ADVSTemplate.Command))]

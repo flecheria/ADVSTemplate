@@ -1,0 +1,27 @@
+﻿PROFILES NAME
+
+The Advance Steel API requires profile names to be formatted a certain way.
+
+When creating elements or changing the profile assigned to an element, you may want to assign a specific section profile, rather than a default profile. To generate a string with the correct format, follow these steps.
+
+To access the correct profile class name and section size, you will need to browse the Advance Steel profiles database. There are two ways to do this:
+
+    Start Advance Steel Management Tools (a separate application installed with Advance Steel)
+        Select "Table editor"
+        Click "Open Database"
+        Browse to "C:\ProgramData\Autodesk\Advance Steel 2017\Steel\Data" (or similar)
+        Select "AstorProfiles.mdb" and click Open.
+    Open the same AstorProfiles.mdb with Microsoft Access or any other compatible database editor.
+
+After opening the profiles database, open the "ProfileMasterTable" table which describes all the available profiles types and the tables in which all the sizes for each profile can be found.
+
+    Look in the TypeNameText column for the profile class name (i.e. "AISC 14.1 W Shape")
+    Look for the TableName in the same row. (i.e. "EXT_AISC14_W_Shapes")
+    Open the table with that name
+    Look in the SectionName column for the desired section size (i.e. "W10x12")
+
+The profile name to use when creating a new element or assigning the profile name for an existing element will be the a concatenation of the profile class name (from 1), a fixed string separator "#@§@#", and the section size (from 4). For example "AISC 14.1 W Shape#@§@#W10x12".
+
+ORIGINAL FROM:
+https://knowledge.autodesk.com/support/advance-steel/getting-started/caas/CloudHelp/cloudhelp/2017/ENU/AdvSteel-Developers/files/GUID-63A91920-3613-44C8-81A8-EBD25B6EE744-htm.html
+

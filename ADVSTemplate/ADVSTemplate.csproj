@@ -138,6 +138,7 @@
   <ItemGroup>
     <Content Include="AddAddinToADVS2018.txt" />
     <Content Include="advs_2018_template_logo.ico" />
+    <Content Include="info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
