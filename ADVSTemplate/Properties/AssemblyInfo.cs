@@ -8,11 +8,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ADVSTemplate")]
-[assembly: AssemblyDescription("A template to create Autodesk AdvanceSteel Addins")]
+[assembly: AssemblyDescription("A template to create Autodesk AdvanceSteel Addins in Visual Studio 2015.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Maffeis Engineering s.p.a.")]
+[assembly: AssemblyCompany("Paolo Cappelletto")]
 [assembly: AssemblyProduct("Autodesk Advance Steel Addin")]
-[assembly: AssemblyCopyright("Copyright © Maffeis Engineering s.p.a. 2017")]
+[assembly: AssemblyCopyright("Copyright © Paolo Cappelletto 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
